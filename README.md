@@ -1,7 +1,4 @@
-# ClockByIshaan
-
 from tkinter import *
-from tkinter import font
 from tkinter.ttk import *
 
 from time import strftime
