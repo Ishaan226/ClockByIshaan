@@ -17,4 +17,4 @@ time()
 
 mainloop()
 
-PS: For IST you can use %I:%M:%S %p and for GMT %H:%M:%S %p
+PS: For 12 hour format you can use %I:%M:%S %p and for 24 Hour format %H:%M:%S %p
