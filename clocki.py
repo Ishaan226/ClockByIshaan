@@ -7,7 +7,7 @@ root = Tk()
 root.title("Clock")
 
 def time():
-    string = strftime('%I:%H:%S %p')
+    string = strftime('%I:%M:%S %p')
     label.config(text=string)
     label.after(1000, time)
 
@@ -16,3 +16,5 @@ label.pack(anchor="center")
 time()
 
 mainloop()
+
+PS: For IST you can use %I:%M:%S %p and for GMT %H:%M:%S %p
